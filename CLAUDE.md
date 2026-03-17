@@ -1,29 +1,3 @@
-# Codebase Audit — Agent Team
-
-> Place this file in the root of your repository.
-> Claude Code loads it automatically on startup.
-
----
-
-## Setup
-
-Enable agent teams before starting:
-
-```bash
-export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
-claude
-```
-
-Or add to your `settings.json`:
-
-```json
-{
-  "env": {
-    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
-  }
-}
-```
-
 Create output directories:
 
 ```bash
@@ -233,14 +207,4 @@ audit/
   patterns.md
   dead-code.md
   types.md
-```
-
----
-
-## To Start
-
-Open Claude Code and say:
-
-```
-Spawn all 4 teammates and start the audit.
 ```
